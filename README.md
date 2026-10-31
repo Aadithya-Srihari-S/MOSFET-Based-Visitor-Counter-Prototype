@@ -1,4 +1,4 @@
-# electronic-people-counting-system
+# MOSFET-Based-Visitor-Counter
 A hardware-efficient visitor counting system using LDR-based optical sensing, MOSFET switching, and digital logic for public-space monitoring.
 
 # PROJECT_OVERVIEW
