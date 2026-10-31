@@ -9,4 +9,9 @@ The system uses an LDR sensor module to detect interruptions in incident light. 
   2. To design and implement a MOSFET-based switching circuit for electronic signal control.
   3. To integrate a buzzer as an audible alert to indicate visitor passage.
 
+#COMPONETS REQUIRED 
+
+
+
+
 
