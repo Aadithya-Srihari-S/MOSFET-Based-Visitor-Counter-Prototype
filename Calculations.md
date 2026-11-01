@@ -9,29 +9,40 @@ A 5 mm white LED is used as the light source for the LDR sensor module. A curren
 | Parameter                                |             Value |
 | ---------------------------------------- | ----------------: |
 | Supply Voltage (\(V_{CC}\))              |               5 V |
-| Selected LED Operating Current (\(I_F\)) |             15 mA |
+| LED Forward Voltage ((V_F))              |  Approximately 3 V|
+| Selected LED Operating Current (\(I_F\)) |             20 mA |
 
 The required series resistance is calculated using Ohm's law:
 
 $$
-R = \frac{V_{CC}}{I_F}
+R = \frac{V_{CC} - V_F}{I_F}
 $$
 
 Substituting the values:
 
 $$
-R = \frac{5}{15\times10^{-3}}
+R = \frac{5 - 3}{20\times10^{-3}}
 $$
 
 $$
-R = 333.33\ \Omega
+R = 100\ \Omega
 $$
 
-A standard resistor value of **330 Ω** can be selected for an operating current close to 15 mA.
+A standard resistor value of 150 Ω can be selected for an operating current close to 20 mA.
 
+Alternatively, a 330 Ω resistor can be used for a lower LED current, providing a more conservative operating condition.
 
+For a 330 Ω resistor:
 
-**Selected Component:** 330 Ω current-limiting resistor.
+$$
+I_F = \frac{5-3}{330}
+$$
+
+$$
+\boxed{I_F \approx 6.06\text{ mA}}
+$$
+
+Selected Component: 330 Ω current-limiting resistor.
 
 ---
 
