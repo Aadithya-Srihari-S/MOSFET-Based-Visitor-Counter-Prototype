@@ -65,7 +65,7 @@ Audible Indication: A buzzer provides an audible alert during visitor detection.
 
 The following video demonstrates the hardware implementation and working of the proposed MOSFET-based electronic people counting system.
 
-[▶ Watch Hardware Demonstration](video/hardware_demonstration.mp4)
+[▶ Watch Hardware Demonstration](https://github.com/Aadithya-Srihari-S/MOSFET-Based-Visitor-Counter-Prototype/blob/main/Demo.mp4)
 
 
 
