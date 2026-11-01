@@ -9,7 +9,7 @@ The system uses an LDR sensor module to detect interruptions in incident light. 
   2. To design and implement a MOSFET-based switching circuit for electronic signal control.
   3. To integrate a buzzer as an audible alert to indicate visitor passage.
 
-# COMPONETS REQUIRED 
+# COMPONENTS REQUIRED
   Component	Specification                                          
   1. Regulated DC power supply 5 V DC -  Powers the circuit assembly
   2. LDR sensor module	3-pin module: VCC, GND, DO - Detects the change in incident light 
@@ -24,9 +24,28 @@ The system uses an LDR sensor module to detect interruptions in incident light. 
     
   8. Buzzer	5 V compatible -                                  Audible alert
     
-  14. Resistor	330 Ω, current-limiting resistor	
-  15. Resistor	1 kΩ, MOSFET gate series resistor	
-  16. Breadboard - For circuit assembly	
+  14. Resistors	
+  16. Breadboard - For circuit assembly
+
+# WORKING PRINCIPLE
+Optical Sensing: The LDR module monitors the incident light from a fixed LED source.
+
+
+Detection: When an object interrupts the light beam, the sensor output changes state.
+
+
+MOSFET Switching: The IRLZ44N MOSFET operates as an electronic switch according to the sensor output.
+
+
+Counting: The CD4026BE receives the detection pulses and increments the count.
+
+
+Display Interfacing: The 74LS04 inverter ICs provide the required logic inversion for interfacing the CD4026 outputs with the common-anode seven-segment display.
+
+
+Audible Indication: A buzzer provides an audible alert during visitor detection.
+
+
 # Potential Applications
 1. Visitor-counting demonstrations
 2. Entrance monitoring prototypes
