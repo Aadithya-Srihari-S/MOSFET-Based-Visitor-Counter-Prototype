@@ -1,7 +1,7 @@
 # MOSFET-Based-Visitor-Counter-Prototype
-A hardware-efficient visitor counting system using LDR-based optical sensing, MOSFET switching, and digital logic for public-space monitoring.
+An electronic visitor-counting prototype using LDR-based optical sensing, MOSFET switching, and digital logic for public-space monitoring.
 
-# PROJECT_OVERVIEW
+# PROJECT OVERVIEW
 The system uses an LDR sensor module to detect interruptions in incident light. The resulting signal is processed by an electronic switching circuit, while a CD4026 counter drives a seven-segment display to indicate the count. The project demonstrates the practical application of discrete electronics, sensor interfacing, MOSFET switching, and digital logic in a people-counting prototype.
 
 # OBJECTIVES 
