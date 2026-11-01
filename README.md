@@ -61,6 +61,13 @@ Audible Indication: A buzzer provides an audible alert during visitor detection.
 5. Improve sensor accuracy and noise immunity.
 6. Design a compact printed circuit board (PCB).
 
+## HARDWARE IMPLEMENTATION & DEMONSTRATION
+
+The following video demonstrates the hardware implementation and working of the proposed MOSFET-based electronic people counting system.
+
+[▶ Watch Hardware Demonstration](video/hardware_demonstration.mp4)
+
+
 
 
 
