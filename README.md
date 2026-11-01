@@ -13,7 +13,7 @@ The system uses an LDR sensor module to detect interruptions in incident light. 
   Component	Specification                                          
   1. Regulated DC power supply 5 V DC -  Powers the circuit assembly
   2. LDR sensor module	3-pin module: VCC, GND, DO - Detects the change in incident light 
-  3. White LED	Light source for intruder detection - Fixed light source
+  3. White LED	Light source for visitor detection - Fixed light source
   4. CD4026BE IC	Decade counter with seven-segment decoder - The CD4026 is a CMOS decade counter and 7-segment display                                                                    driver combined into a single 16-pin package. Is used to count                                                               the total visitors crossing.
      
   5. 74LS04 IC	Hex inverter IC -                                                Since I used common Anode display, I had to                                                                                  invert the logic to display using IC4046BE                                                                                   counter which uses Common cathode encoder.                                                                                   This IC is not required if using Common                                                                                      Cathode display
